@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 
 def main():
-    logging.basicConfig(filename='/home/ryan/github/TOD/tweet.log', level=logging.INFO)
+    logging.basicConfig(filename='/home/rhino/github/TOD/tweet.log', level=logging.INFO)
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     st = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
     url = "https://fuckinghomepage.com/"

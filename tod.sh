@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /home/ryan/github/TOD/main_TOD.py
+python3 /home/rhino/github/TOD/main_TOD.py
